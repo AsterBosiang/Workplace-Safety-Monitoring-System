@@ -33,14 +33,16 @@ A real-time workplace safety monitoring system that integrates **YOLOv8 object d
 
 ## Project Structure
 
+<pre>
 Workplace-Safety-Monitoring-System/
-├── app.py                # Flask backend with APIs and web UI
-├── best.pt               # YOLOv8 model for helmet detection
-├── known_faces/          # Face images for recognition
-├── images/
-│   └── display.png       # UI preview image
-├── requirements.txt      # Python dependencies
-└── site.db               # SQLite database (auto-generated)
+|-- app.py               # Flask backend with APIs and web UI
+|-- best.pt              # YOLOv8 model for helmet detection
+|-- known_faces/         # Face images for recognition
+|-- images/
+|   |-- display.png      # UI preview image
+|-- requirements.txt     # Python dependencies
+|-- site.db              # SQLite database (auto-generated)
+</pre>
 
 
 ## Web Dashboard Preview
