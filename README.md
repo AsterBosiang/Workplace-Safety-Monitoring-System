@@ -4,7 +4,6 @@ A real-time workplace safety monitoring system that integrates **YOLOv8 object d
 
 ![System Demo](images/display.png)
 
----
 
 ## �Features
 
@@ -31,7 +30,6 @@ A real-time workplace safety monitoring system that integrates **YOLOv8 object d
   - Dynamic lists of personnel with/without helmets
   - Real-time updates via Server-Sent Events
 
----
 
 ## Project Structure
 
@@ -44,7 +42,6 @@ Workplace-Safety-Monitoring-System/
 ├── requirements.txt      # Python dependencies
 └── site.db               # SQLite database (auto-generated)
 
----
 
 ## Web Dashboard Preview
 
@@ -54,7 +51,6 @@ The dashboard provides a categorized list of recognized personnel with or withou
 - **Non-Helmeted Personnel**
 - **Live Recognition List**
 
----
 
 ## Technologies Used
 
@@ -65,7 +61,6 @@ The dashboard provides a categorized list of recognized personnel with or withou
 - **SQLite** – Lightweight database
 - **HTML/CSS/JS** – Custom UI dashboard
 
----
 
 ## Live System Workflow
 
