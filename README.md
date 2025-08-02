@@ -5,7 +5,7 @@ A real-time workplace safety monitoring system that integrates **YOLOv8 object d
 ![System Demo](images/display.png)
 
 
-## �Features
+## Features
 
 - **Live Video Detection**:
   - Real-time detection using YOLOv8 (`best.pt`)
