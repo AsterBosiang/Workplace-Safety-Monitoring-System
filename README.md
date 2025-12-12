@@ -53,7 +53,6 @@ The YOLOv8 model was trained for 10 epochs with a confidence threshold of 0.5. B
 ### Confusion Matrix
 ![Confusion Matrix](images/graph1.png)
 
-The confusion matrix shows the classification performance across three categories: **Hardhat**, **NO-Hardhat**, and **background**. The model achieves strong true positive rates, with 60 correct detections for helmeted personnel and 37 for non-helmeted cases. Misclassifications between helmet and no-helmet classes remain minimal, indicating reliable safety status recognition.
 
 ### Precision-Recall Curve
 ![Precision-Recall Curve](images/graph2.png)
