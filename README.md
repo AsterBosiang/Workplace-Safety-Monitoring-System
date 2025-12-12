@@ -58,17 +58,15 @@ The confusion matrix shows the classification performance across three categorie
 ### Precision-Recall Curve
 ![Precision-Recall Curve](images/graph2.png)
 
-This curve illustrates the trade-off between precision and recall at various confidence thresholds. The **Hardhat** class achieves an impressive mAP@0.5 of **0.822**, while the **NO-Hardhat** class reaches **0.570**. The overall system mAP across all classes is **0.696**, demonstrating balanced detection capabilities for both safety compliance and violation scenarios.
 
 ### F1-Confidence Curve
 ![F1-Confidence Curve](images/graph3.png)
 
-The F1-Confidence curve shows the optimal balance between precision and recall. Peak F1 scores occur around confidence levels of 0.2-0.4, with the **Hardhat** class maintaining consistently higher F1 scores (peaking above 0.8) compared to **NO-Hardhat** (peaking around 0.65). The all-classes F1 score of **0.73 at confidence 0.410** indicates the recommended operating threshold for balanced performance.
 
 ### Recall-Confidence Curve
 ![Recall-Confidence Curve](images/graph4.png)
 
-This curve demonstrates how recall varies with detection confidence. At lower confidence thresholds (near 0), the system achieves high recall rates (above 0.75), capturing most helmet and non-helmet instances. The **Hardhat** class maintains better recall across all confidence levels compared to **NO-Hardhat**, with the all-classes recall of **0.77 at confidence 0.000** showing the model's comprehensive detection capability.
+
 
 ## Web Dashboard Preview
 
